@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="junina.css" media="">
+	<title>Festa Junina</title>
+
+
+</head>
+<body>
+
+   <center><img src="band.png">
+	<h1>Cadastro de Festa Junina </h1>
+	<h4>Complete o Cadastro com suas informações se você tem interessse em participar da nossa festa junina</h4>
+    
+   <hr>
+	<img src="img.jpeg" width="500px"></center>
+   <hr>
+
+   <div class="teste">
+      
+	   <div>
+  
+     	<p id="subtitulo">Complete aqui suas informações:</p>
+      <br>
+
+     </div> 
+
+     <form action="gratidao.html" target="_blank">
+     	<fieldset class="grupo">
+     		<div class="campo">
+     			<label for="nome"><strong>Nome</strong></label>
+     			<input type="text" name="Nome" id="Nome" required>
+     		</div>
+
+     		<div class="campo">
+     			<label for="Sobrenome"><strong>Sobrenome</strong></label>
+     			<input type="text" name="Sobrenome" id="Sobrenome" required>
+     		</div>
+
+        </fieldset>
+
+     		<div class="campo">
+     			<label for="email"><strong>Email</strong></label>
+     			<input type="email" name="email" id="email" required>
+     		</div>
+
+     		<div class="campo">
+     			<label><strong>Quantos acompanhantes?</strong></label>
+     			<label>
+     				<input type="radio" name="Devweb" value="frontend" checked>0
+     			</label>
+
+     			<label>
+     				<input type="radio" name="Devweb" value="backend">1
+     			</label>
+
+     			<label>
+     				<input type="radio" name="Devweb" value="fullstack">2
+     			</label>
+
+     			<label>
+     				<input type="radio" name="Devweb" value="fullstack">3 ou +
+     			</label>
+
+     		</div>
+
+     		<div class="campo">
+            <label for="Senioridade"><strong>Genero</strong></label>
+            <select id="Senioridade">
+               <option selected disabled value="">Selecione</option>
+               <option>Feminino</option>
+               <option>Masculino</option>
+               <option>Outro</option>
+               <option>Prerfiro não dizer</option>
+               
+               
+            </select>
+         </div>
+
+     		<fieldset class="grupo">
+     			<div id="check">
+     				<label><strong>Colaboração:</strong></label><br><br>
+     				<input type="checkbox" id="tecnologia1" name="tecnologia1" value="Salgados">
+     				<label for="tecnologia1">Salgados</label>
+     				<input type="checkbox" id="tecnologia2" name="tecnologia2" value="Doces">
+     				<label for="tecnologia2">Doces</label>
+     				<input type="checkbox" id="tecnologia3" name="tecnologia3" value="Sucos">
+     				<label for="tecnologia3">Sucos</label>
+     				<input type="checkbox" id="tecnologia4" name="tecnologia4" value="Refrigerantes">
+     				<label for="tecnologia4"PHP>Refrigerantes</label>
+     				<input type="checkbox" id="tecnologia5" name="tecnologia5" value="Água">
+     				<label for="tecnologia5">Água</label>
+     				
+     			</div>
+     		</fieldset>
+
+         <div class="campo">
+            <br>
+            <label><strong>Sugestões de brincadeiras</strong></label>
+            <textarea rows="6"style="width: 26em" id="experiência" name="experiência"></textarea>
+         </div>
+
+         <button class="botao" type="submit">Concluído!</button>
+     			
+     </form>  
+  </div>
+
+</body>
+</html>
